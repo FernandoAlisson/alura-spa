@@ -1,0 +1,15 @@
+@import '../abstract/variaveis';
+
+.bem-estar {
+  text-align: center;
+
+  &__textos {
+    h3 {
+      font-weight: bold;
+    }
+
+    h4 {
+      color: $cor-secundaria;
+    }
+  }
+}
